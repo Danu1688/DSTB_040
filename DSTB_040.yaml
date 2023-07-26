@@ -1,0 +1,40 @@
+proxies:
+- name: Danu39_LiveHerza40a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 87b7e09c-99e2-4289-baf7-d3a194e4d90a
+  udp: true
+  sni: herza2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.myserver-prem.cloud
+- name: Danu39_LiveHerza40b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 87b7e09c-99e2-4289-baf7-d3a194e4d90a
+  udp: true
+  sni: herza2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.myserver-prem.cloud
+- name: Danu39_LiveHerza40c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 87b7e09c-99e2-4289-baf7-d3a194e4d90a
+  udp: true
+  sni: herza2.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: herza2.myserver-prem.cloud
