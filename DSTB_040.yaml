@@ -1,7 +1,7 @@
 proxies:
 - name: NaniGS_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 1d4c20bb-18d6-463a-be42-0860d8063b9d
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: danu529.foryou-ssh.my.id
 - name: Danu39_LiveHerza40a
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 87b7e09c-99e2-4289-baf7-d3a194e4d90a
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: herza2.myserver-prem.cloud
 - name: Danu39_LiveHerza40b
   type: trojan
-  server: 172.67.139.111
+  server: circles.asia
   port: 443
   password: 87b7e09c-99e2-4289-baf7-d3a194e4d90a
   udp: true
